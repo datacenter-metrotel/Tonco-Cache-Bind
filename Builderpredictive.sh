@@ -44,7 +44,7 @@ fi
 # Función para ejecutar dig para un dominio
 function query_dns {
     domain=$1
-    dig $domain @127.0.0.1
+    dig $domain @127.0.0.1 
 }
 
 # Exportar la función para que esté disponible para xargs
